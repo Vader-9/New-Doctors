@@ -1,0 +1,41 @@
+.contact-h1{
+    text-align: center;
+    margin: 40px;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#contact img{
+    width: 500px;
+    height: 500px;
+}
+
+.contact-info{
+    height: 500px;
+    padding: 10px;
+}
+.contact-info h2{
+    padding: 20px;
+}
+#pta{
+    padding: 20px;
+}
+.p1{
+    padding: 20px;
+}
+.contact-info button {
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    background: white;
+    cursor: pointer;
+    border: 1px solid;
+}
+.contact-info button:hover{
+    color: white;
+    background-color: black;
+}

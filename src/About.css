@@ -1,0 +1,55 @@
+.abouth1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.About{
+    display: flex;
+    width: 80vw;
+    margin-top: 30px;
+}
+
+.about-img img{
+    width: 400px;
+    height: 400px;
+}
+
+.p-tags{
+    height: 400px;
+    width: 800px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.p-tags p{
+    padding: 20px;
+}
+.p-tags h3{
+    padding: 20px;
+}
+
+.ttags{
+    width: 80vw; 
+    margin-top: 30px; 
+}
+
+.three{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.one{
+    width: 27vw ;
+    border: 1px solid #C9D8FF;
+    padding: 80px;
+    cursor: pointer;
+    
+}
+.one:hover{
+    color: white;
+    background-color: #C9D8FF;
+}
+.one h3{
+    padding-bottom: 20px;
+}

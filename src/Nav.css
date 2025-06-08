@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+    gap: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.nav button{
+    color: white;
+    background-color: rgb(98, 98, 247);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+.active{
+    padding: 5px;
+    border-bottom: 1px solid rgb(98, 98, 247);
+}
+

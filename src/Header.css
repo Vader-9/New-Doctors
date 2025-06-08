@@ -1,0 +1,37 @@
+.Header{
+    background-color: rgb(98, 98, 247);
+    width: 1250px;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-radius: 10px;   
+}
+
+.firstimg{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.firstp p{
+   font-size: 14px;
+}
+
+.first button{
+    width: 200px;
+    height: 64px;
+    border-radius: 47px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.docpic img{
+    height: 400px;
+    width: 600px;
+    margin-top: 105px;
+}
