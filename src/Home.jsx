@@ -2,7 +2,7 @@ import { doctors, specialityData } from './assets/assets';
 import Header from './Header';
 import './Home.css'
 import { assets } from './assets/assets';
-import { useState } from 'react';
+
 
 
 function Home({setVader}) {
@@ -38,7 +38,7 @@ function Home({setVader}) {
                 </div>
                 <div className="doc-grid">
                     {doctors.map((doctor, _id)=> {return(
-                        <div className="doctor" key={_id} onClick={doctorInfo}>
+                        <div className="doctor" key={_id}>
                             <img src={doctor.image} alt="" />
                             <div className="doc-info">
                             <li>Avaliable</li>
