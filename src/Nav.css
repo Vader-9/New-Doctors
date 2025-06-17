@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid;
-    gap: 250px;
+    gap: 230px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     text-decoration: none;
     list-style-type: none;
     cursor: pointer;
@@ -29,8 +29,18 @@
     border: none;
 }
 
+.admin{
+    border: 1px solid rgb(98, 98, 247);
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .active{
     padding: 5px;
     border-bottom: 1px solid rgb(98, 98, 247);
+    
 }
 

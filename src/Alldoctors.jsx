@@ -1,12 +1,12 @@
-
-
 import './All doctors.css';
+import WeekDays from './weekdays';
 import { useState } from 'react';
 import { specialityData, doctors } from './assets/assets';
 
 function Alldoctors() {
   const [selectedSpeciality, setSelectedSpeciality] = useState('All');
   const [doctorInfo, setDoctorInfo] = useState('');
+  
   
   
 
@@ -26,13 +26,12 @@ function Alldoctors() {
 const relatedDoc = doctors.filter((doc)=>{
   return doc.speciality === doctorInfo.speciality 
 })
-  
+
 
 
   if (doctorInfo) {
-    
-    
-    return (
+     
+     return (
       <div key={doctorInfo._id} className='doctorInfo'>
         <div className="doctorInfo-Header">
           <img src={doctorInfo.image} alt="" />
@@ -49,7 +48,12 @@ const relatedDoc = doctors.filter((doc)=>{
           </div>
         </div>
         <div className="doctorInfo-appointment">
-
+           <div className="Bookingslots">
+            <h4>Booking slots</h4>
+            <div className="week-days">
+           <WeekDays></WeekDays>
+            </div>
+           </div>
         </div>
         <div className="doctorInfo-Related">
           <div className="doctorInfo-Related-h1">

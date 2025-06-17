@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { assets } from "./assets/assets";
 import './Nav.css';
 
-function Nav({setVader}) {
+function Nav({setVader, setRex}) {
   const location = useLocation();
   console.log(setVader)
 
@@ -22,6 +22,7 @@ function Nav({setVader}) {
         <li className={location.pathname === '/contact' ? 'active' : ''} onClick={()=>setVader(false)}>
           <Link to="/contact">Contact</Link>
         </li>
+        <a href='Admin.jsx'>Admin panel</a>
       </ul>
       <button onClick={()=>setVader(true)}>Create account</button>
     </div>

@@ -38,10 +38,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
+}
+.doctorInfo-Header img{
+    height: 250px;
+}
+.doctorInfo-Header-writeup{
+    border: 1px solid rgb(98, 98, 247);
+    border-radius: 10px;
+    height: 250px;
+    padding: 20px;
+    text-align: left;
+}
+.degreeInfo button{
+    background: none;
+    border-radius: 15px;
+    width: 50px;
+    border: 1px solid;
+    cursor: pointer;
 }
 
-.doctorInfo-Header-writeup{
-    border: 1px solid;
-    border-radius: 10px;
-    height: 400px;
+.doctorInfo-Related-Doctors{
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    cursor: pointer;
 }
