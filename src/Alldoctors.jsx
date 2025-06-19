@@ -6,32 +6,32 @@ import { specialityData, doctors } from './assets/assets';
 function Alldoctors() {
   const [selectedSpeciality, setSelectedSpeciality] = useState('All');
   const [doctorInfo, setDoctorInfo] = useState('');
-  
-  
-  
+
+
+
 
 
   const handleFilter = (speciality) => {
     setSelectedSpeciality(speciality);
   };
 
-  
+
 
   const filteredDoctors = selectedSpeciality === 'All'
     ? doctors
     : doctors.filter((doctor) => doctor.speciality === selectedSpeciality);
 
 
-   
-const relatedDoc = doctors.filter((doc)=>{
-  return doc.speciality === doctorInfo.speciality 
-})
+
+  const relatedDoc = doctors.filter((doc) => {
+    return doc.speciality === doctorInfo.speciality
+  })
 
 
 
   if (doctorInfo) {
-     
-     return (
+
+    return (
       <div key={doctorInfo._id} className='doctorInfo'>
         <div className="doctorInfo-Header">
           <img src={doctorInfo.image} alt="" />
@@ -48,32 +48,34 @@ const relatedDoc = doctors.filter((doc)=>{
           </div>
         </div>
         <div className="doctorInfo-appointment">
-           <div className="Bookingslots">
+          <div className="Bookingslots">
             <h4>Booking slots</h4>
             <div className="week-days">
-           <WeekDays></WeekDays>
+              <WeekDays></WeekDays>
+              <div className="avalabletime"></div>
+              <button>Book an Appointment</button>
             </div>
-           </div>
+          </div>
         </div>
         <div className="doctorInfo-Related">
           <div className="doctorInfo-Related-h1">
             <h1>Related Doctors</h1>
             <p>Simply browse through our extensive list of trusted doctors.</p>
           </div>
-           <div className="doctorInfo-Related-Doctors">
+          <div className="doctorInfo-Related-Doctors">
             {relatedDoc.map((doctor, index) => (
-            <div className="doctor" key={index}>
-              <img src={doctor.image} alt={doctor.name} />
-              <div className="doc-info">
-                <li>Available</li>
-                <h3>{doctor.name}</h3>
-                <p>{doctor.speciality}</p>
+              <div className="doctor" key={index}>
+                <img src={doctor.image} alt={doctor.name} />
+                <div className="doc-info">
+                  <li>Available</li>
+                  <h3>{doctor.name}</h3>
+                  <p>{doctor.speciality}</p>
+                </div>
               </div>
-            </div>
-          ))}
-           </div>
+            ))}
+          </div>
         </div>
-     
+
       </div>
     )
 
@@ -111,7 +113,7 @@ const relatedDoc = doctors.filter((doc)=>{
                 <p>{doctor.speciality}</p>
               </div>
             </div>
-          ))}
+          ))}dxcc
         </div>
       </div>
     </div>

@@ -1,0 +1,131 @@
+.Admin{
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.admin-header{
+    border-bottom: 1px solid rgb(187, 187, 202) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.admin-header button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(98, 98, 247);
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    cursor: pointer;
+}
+.admin-header-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#Admin-header-button{
+    background-color: transparent;
+    color: black;
+    border: 1px solid;
+    padding: 0px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#admin-display{
+    display:flex;
+    gap: 50px;
+}
+
+.sidebar{
+    border: 1px solid rgb(98, 98, 247);
+    border-top: none;
+    height: 200vh;
+    width: 300px;
+    padding: 30px;
+}
+.side-bar-items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.addDoctors{
+    border: 1px solid gray;
+    width: 1000px;
+    height: 800px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-shadow: 0 1px 2px ;
+}
+.profile-pic{
+    display: flex;
+    align-items:center ;
+    margin-bottom: 20px;
+}
+.addDoctors-input{
+    display: flex;
+    gap: 50px;
+}
+.rightInput{
+    width: 400px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: left;
+    color: grey;
+}
+.rightInput input{
+    width: 100%;
+    border: none;
+    outline: none;
+    overflow-x: hidden;
+}
+.leftInput{
+    width: 400px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: left;
+    color: grey;
+}
+.leftInput input{
+    width: 100%;
+    border: none;
+    outline: none;
+    overflow-x: hidden;
+}
+
+ .About{
+    width: 100%;
+ }
+ .about-text{
+    width: 87%;
+    height: 100px;
+    border: 1px solid gray;
+    padding: 10px;
+ }
+ 
+ #specbtn{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(98, 98, 247);
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    cursor: pointer;
+ }

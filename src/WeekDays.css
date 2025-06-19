@@ -1,0 +1,24 @@
+.weeks{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    overflow-x: hidden;
+    height: 150px;
+}
+
+.week{
+    border: 1px solid;
+    height: 80px;
+    width: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.week:active{
+    color: white;
+    background-color: rgb(98, 98, 247);
+}

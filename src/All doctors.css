@@ -58,6 +58,18 @@
     cursor: pointer;
 }
 
+.doctorInfo-appointment{
+    width: 100%;
+    text-align: center;
+}
+.week-days button{
+    color: white;
+    background-color: rgb(98, 98, 247);
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+}
+
 .doctorInfo-Related-Doctors{
      display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
